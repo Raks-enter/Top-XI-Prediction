@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cricket Top 11 Players Predictor</title>
+</head>
+<body>
+    <h1>Welcome to the Top 11 Players Predictor</h1>
+    <p>Upload your player stats CSV file, and we'll predict the top 11 players before the match!</p>
+
+    {% if error %}
+      <p style="color:red;">{{ error }}</p>
+    {% endif %}
+
+    <form action="{{ url_for('predict_top_11') }}" method="POST" enctype="multipart/form-data">
+        <label for="file">Upload CSV file:</label>
+        <input type="file" name="file" id="file" accept=".csv" required><br><br>
+        <input type="submit" value="Predict Top 11">
+    </form>
+</body>
+</html>
