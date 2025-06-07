@@ -1,0 +1,6 @@
+[2025-06-07 23:57:16,416] 26 root - INFO -Entered the data ingestion method or component
+[2025-06-07 23:57:16,416] 30 root - INFO -read the dataset as df
+[2025-06-07 23:57:16,432] 35 root - INFO -train test split initiated
+[2025-06-07 23:57:16,432] 41 root - INFO -Ingestion of the data is completed
+[2025-06-07 23:57:16,514] 31 root - INFO -Splitting training and test input data
+[2025-06-07 23:57:25,774] 80 root - INFO -Best model found: Linear Regression with R² score: 1.0
