@@ -1,0 +1,8 @@
+[2025-06-08 00:19:26,348] 97 werkzeug - WARNING - * Debugger is active!
+[2025-06-08 00:19:26,356] 97 werkzeug - INFO - * Debugger PIN: 421-361-159
+[2025-06-08 00:20:00,495] 97 werkzeug - INFO -127.0.0.1 - - [08/Jun/2025 00:20:00] "GET / HTTP/1.1" 200 -
+[2025-06-08 00:20:00,495] 97 werkzeug - INFO -127.0.0.1 - - [08/Jun/2025 00:20:00] "GET / HTTP/1.1" 200 -
+[2025-06-08 00:20:00,563] 97 werkzeug - INFO -127.0.0.1 - - [08/Jun/2025 00:20:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-06-08 00:20:20,846] 97 werkzeug - INFO -127.0.0.1 - - [08/Jun/2025 00:20:20] "POST /predict HTTP/1.1" 200 -
+[2025-06-08 00:22:12,445] 97 werkzeug - INFO -127.0.0.1 - - [08/Jun/2025 00:22:12] "POST /predict HTTP/1.1" 200 -
+[2025-06-08 00:22:15,927] 97 werkzeug - INFO - * Detected change in 'C:\\Users\\kollu\\Playing XI predictio\\src\\pipeline\\predict_pipeline.py', reloading
